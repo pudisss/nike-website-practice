@@ -1,0 +1,179 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+section.main-section {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(18, 18, 18, 1);
+    background-image: url("../assets/images/01.svg");
+    background-position: center right;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+}
+
+header.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 1.5rem;
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
+}
+
+.header .first-categories a{
+    text-decoration: none;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    margin-left: 1.5rem;
+    
+    
+}
+
+.header .second-categories svg {
+    margin-left: 1.35rem;
+    
+}
+
+/* Main section */
+.main {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main .text {
+    text-align: left;
+    position: relative;
+    left: 4.5rem;
+
+}
+.main svg {
+    margin-right: 3.5rem;
+}
+.main .text .sneaker-header {
+    font-family: "Montserrat";
+    font-size: 30px;
+    font-weight: 400;
+    color: rgb(189, 189, 189, 1);
+}
+
+.main .text .name {
+    font-family: "Montserrat";
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+}
+
+.main .text .fullname {
+    font-family: "Montserrat";
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    margin-top: 1rem;
+}
+
+.main .text .paragraph {
+    width: 461px;
+height: 141px;
+font-family: "Montserrat";
+font-size: 16px;
+font-weight: 400;
+color: white;
+margin-top: 1.25rem;
+}
+
+.main .text .more-info {
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    width: 294px;
+height: 59px;
+margin-top: 1.5rem;
+}
+
+/* Lower Section */
+
+.lower-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 2.5rem;
+}
+
+.lower-section .switcher {
+    position: relative;
+    bottom: 2.5rem;
+    height: 32px;
+width: 64px;
+background-color: white;
+border: none;
+border-radius: 20px;
+display: flex;
+align-items: center;
+}
+
+.lower-section .switch {
+    width: 32px;
+    height: 32px;
+    background-color: black;
+    border-radius: 20px;
+    border: none;
+}
+
+.lower-section .buy-container {
+    position: relative;
+    bottom: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    
+
+}
+
+.lower-section .buy-container .price {
+    font-family: "Montserrat";
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+.lower-section .buy-container .buy-button {
+    width: 228px;
+height: 60px;
+background-color: white;
+border: none;
+border-radius: 17px;
+font-family: "Montserrat";
+font-size: 32px;
+font-weight: 700;
+color: black;
+}
+
+.lower-section .continent {
+    position: relative;
+    bottom: 2.5rem;
+    right: 2.5rem;
+    display: flex;
+    flex-flow: row nowrap;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+
+}
+
+.lower-section .continent .second-text {
+    color: rgb(189, 189, 189, 1);
+    margin-left: 1rem;
+}
+
